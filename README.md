@@ -1,3 +1,7 @@
+# redux-exercise
+
+Redux is a library to centralize data, actions, logical rules and handle with side effects looking to facilitate the development with components and avoid prop drilling.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
