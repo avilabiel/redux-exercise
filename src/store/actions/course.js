@@ -5,3 +5,11 @@ export function toggleLesson(module, lesson) {
       lesson
   }
 }
+
+export function changeLesson4(module, lesson) {
+  return {
+    type: 'CHANGE_LESSON4',
+    module,
+    lesson
+  }
+}

@@ -24,7 +24,7 @@ const INITIAL_STATE = {
 
 export default function course(store = INITIAL_STATE, action) {
 
-  if (action.type === 'TOGGLE_LESSON')
+  if (action.type === 'TOGGLE_LESSON' || action.type === 'CHANGE_LESSON4')
     return  {...store, activeLesson: action.lesson, activeModule: action.module}
 
   return store
